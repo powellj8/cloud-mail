@@ -9,14 +9,14 @@ enabled = true
 [limits]
 cpu_ms = 30000
 
-#[[d1_databases]]
-#binding = "db"			#d1数据库绑定名默认不可修改
-#database_name = ""		#d1数据库名字
-#database_id = ""		#d1数据库id
+[[d1_databases]]
+binding = "db"			#d1数据库绑定名默认不可修改
+database_name = "diemail"		#d1数据库名字
+database_id = "e8f9f8ec-cebf-4b2a-8a76-8471d141f412"		#d1数据库id
 
-#[[kv_namespaces]]
-#binding = "kv"			#kv绑定名默认不可修改
-#id = ""					#kv数据库id
+[[kv_namespaces]]
+binding = "kv"			#kv绑定名默认不可修改
+id = "ac211a128748490aa44bde1468e34783"					#kv数据库id
 
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
