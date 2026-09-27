@@ -28,6 +28,9 @@ run_worker_first = true
 [triggers]
 crons = ["0 16 * * *"]	#定时任务每天晚上12点执行
 
+[limits]
+cpu_ms = 30000
+
 
 [vars]
 #orm_log = false
